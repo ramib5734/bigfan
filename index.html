@@ -1,0 +1,115 @@
+<html> 
+    <head>
+        <title>Big Fan Project</title>
+        <link href="styles.css" rel="stylesheet" type="tex/css">
+    </head> 
+    <style>
+        body{
+            background-color: #fdfdfd;
+            font-family: monospace;
+            font-size: 50px;
+            text-align: center;
+            background-image: url(https://cdn.discordapp.com/attachments/579361313688649730/943574400307986502/latest.png);
+            background-size: 5%;
+        }
+        .mainbox{
+            width:750px;
+            height: 75px;
+            border: 1px solid #000;
+            border-radius: 3px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            position: relative;
+            left: 30%;
+        }
+        #backgroundanim{
+            animation-name: color;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+        }
+        @keyframes color{
+            0%{
+                background-color: #00AEEF;
+            }
+            50%{
+                background-color:#fdfdfd;
+            }
+            100%{
+                background-color: #00AEEF;
+            }
+        }
+        .pbox{
+            width: 1000px;
+            height: 230px;
+            left: 50%;
+            top: 50%;
+            margin-left: -500px;
+            margin-top: -450px;
+            position: relative;
+            background-color: #00AEEF;
+            border: 5px solid #000;
+            border-radius: 10px;
+            font-size: 25px;
+            padding: 10px;
+        
+        }
+        .imagetext{
+            width: 400px;
+            height: 20px;
+            margin-top:450px;
+            background-color: hsl(197, 87%, 46%);
+            opacity: 70%;
+            position: relative;
+            border: 1px solid #000;
+            font-size: 12px;
+            padding: 3px;
+            left:350px;
+            bottom: 10px;
+        }
+        .image{
+            
+            border: 3px solid #000; 
+            top: 50%;
+            position: relative;
+        }
+        ul{
+            width: 250px;
+            height: 120px;
+            top: 50%;
+            left: 50%;
+            margin-left: -125px;
+            margin-top: 50px;
+            position: relative;
+            background-color:#00AEEF;
+            border: 5px solid #000;
+            list-style-type: none;
+            font-size: 25px;
+            text-align: center;
+            padding: 5px;
+         }
+    </style>
+    <div class="mainbox" id="backgroundanim">
+    <h><b>Cloud9 - Esports Champions</b></h>
+    </div>
+    <p class="pbox">
+        Cloud9 Esports, Inc., or simply Cloud9 (C9), is an American professional esports company 
+        based in Santa Monica, California. The company was originally founded as a professional 
+        League of Legends team founded by Jack and Paullie Etienne in May 2013 and was incorporated 
+        into Cloud9 Esports, Inc. on September 6, 2016. Cloud9 has received US$78 million in total 
+        raised equity via venture capital funding and was ranked the world's second-most valuable 
+        esports organization in 2020. To learn more about Cloud9 and their orginzation, press 
+        <a href="cloud9.gg"><em>here</em></a>.
+
+    </p>
+    <img class="image" src="https://static.gosugamers.net/7e/67/30/df8756eb56013dea105917b0f29c588c89d2163948ca1832f943d3eaef.jpg?w=1200">
+    <p class="imagetext"> Shown is Cloud9's Current Roster for their LCS Team.</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="ls.html">LS</a></li>
+        </ul>
+    </nav>
+    <footer style="font-size: 30px">©Copyright Cloud9 2022</footer>
+</html>

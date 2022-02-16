@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Big Fan Project</title>
+        <link href="styles.css" rel="stylesheet" type="tex/css">
+    </head> 
+    <style>
+        body{
+            background-color: #fdfdfd;
+            font-family: monospace;
+            font-size: 50px;
+            text-align: center;
+            background-image: url(https://cdn.discordapp.com/attachments/579361313688649730/943574400307986502/latest.png);
+            background-size: 5%;
+        }
+         .mainbox{
+            width:750px;
+            height: 75px;
+            border: 1px solid #000;
+            border-radius: 3px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            position: relative;
+            left: 30%;
+        }
+        #backgroundanim{
+            animation-name: color;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+        }
+        @keyframes color{
+            0%{
+                background-color: #00AEEF;
+            }
+            50%{
+                background-color:#fdfdfd;
+            }
+            100%{
+                background-color: #00AEEF;
+            }
+        }
+        .pbox{
+            width: 1000px;
+            height: 230px;
+            left: 50%;
+            top: 50%;
+            margin-left: -500px;
+            margin-top: -450px;
+            position: relative;
+            background-color: #00AEEF;
+            border: 5px solid #000;
+            border-radius: 10px;
+            font-size: 25px;
+            padding: 10px;
+        }
+        ul{
+            width: 250px;
+            height: 120px;
+            top: 50%;
+            left: 50%;
+            margin-left: -125px;
+            margin-top: 500px;
+            position: relative;
+            background-color:#00AEEF;
+            border: 5px solid #000;
+            list-style-type: none;
+            font-size: 25px;
+            text-align: center;
+            padding: 5px;
+         }
+    </style>
+    <div class="mainbox" id="backgroundanim">
+    <h><b>Statistics</b></h>
+    </div>
+
+    <p class="pbox">Cloud9 has won over 50 tournaments as an orginzation, with major wins
+        in games such as CS:GO, League of Legends, Rocket League, Valorant, and Smash Bros. 
+        Melee. In 2020 alone they took 13 first place victories, and have taken 8 second, third and 
+        fourth places. Some of their most notable wins have been being the first North American
+        team to win a Major in CS:GO as well as placing in the top 8 of the League of Legends
+        2021 World Championship.
+
+    </p>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="ls.html">LS</a></li>
+        </ul>
+        <footer style="font-size: 30px">©Copyright Cloud9 2022</footer>
+    </nav>

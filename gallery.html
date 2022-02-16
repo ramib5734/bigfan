@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Big Fan Project</title>
+        <link href="styles.css" rel="stylesheet" type="tex/css">
+    </head> 
+    <style>
+        body{
+            background-color: #fdfdfd;
+            font-family: monospace;
+            font-size: 50px;
+            text-align: center;
+            background-image: url(https://cdn.discordapp.com/attachments/579361313688649730/943574400307986502/latest.png);
+            background-size: 5%;
+        }
+        ul{
+            width: 250px;
+            height: 120px;
+            top: 50%;
+            left: 50%;
+            margin-left: -125px;
+            margin-top: 50px;
+            position: relative;
+            background-color:#00AEEF;
+            border: 5px solid #000;
+            list-style-type: none;
+            font-size: 25px;
+            text-align: center;
+            padding: 5px;
+         }
+         .mainbox{
+            width:750px;
+            height: 75px;
+            border: 1px solid #000;
+            border-radius: 3px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            position: relative;
+            left: 30%;
+        }
+        #backgroundanim{
+            animation-name: color;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+        }
+        @keyframes color{
+            0%{
+                background-color: #00AEEF;
+            }
+            50%{
+                background-color:#fdfdfd;
+            }
+            100%{
+                background-color: #00AEEF;
+            }
+        }
+        .imageone{
+            
+            border: 3px solid #000; 
+            position: relative;
+            top: 25px;
+        }
+        .imagetwo{
+            border: 3px solid #000;
+            position: relative;
+            top: 25px;
+            
+        }
+        .imagethree{
+            border: 3px solid #000;
+            position: relative;
+            top: 25px;
+        }
+        .imagefour{
+            border: 3px solid #000;
+            position: relative;
+            top: 25px;
+        }
+        #imagesize{
+            max-width: 35%;
+            height: auto;
+        }
+    </style>
+    <div id="backgroundanim" class="mainbox">
+    <h><b>Gallery</b></h>
+    </div>
+    <img class="imageone" id="imagesize" src="https://cdn.discordapp.com/attachments/579361313688649730/943607646592847872/1e066-16182151824429-800.png">
+    <img class="imagetwo" id="imagesize" src="https://cdn.discordapp.com/attachments/579361313688649730/943607476874543175/02.png">
+    <img class="imagethree" id="imagesize" src="https://cdn.discordapp.com/attachments/579361313688649730/942980146573496361/cloud9-blue-feature-img.png">
+    <img class="imagefour" id="imagesize" src="https://cdn.discordapp.com/attachments/579361313688649730/943611206017638410/maxresdefault.png">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="ls.html">LS</a></li>
+        </ul>
+    </nav>
+    <footer style="font-size: 30px">©Copyright Cloud9 2022</footer>
+</html>
